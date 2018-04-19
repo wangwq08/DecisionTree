@@ -16,9 +16,7 @@ public class Node
      * 此节点的特征名称或答案
      */
     public String featureName;
-    /**
-     * 此节点的分类子节点
-     */
+    //此节点的分类子节点
     public List<Node> childrenNodeList = new ArrayList<Node>();
 
     @Override
